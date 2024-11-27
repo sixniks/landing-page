@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+/* border: magenta;
+border-style: dotted; */
+}
+
+html{
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.headerlinks{
+    display: flex;
+    gap: 50px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 400;
+}
+.herobody{
+    display: flex;
+    background-color: #1f2937;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    flex-direction: row; 
+    justify-content: space-between;
+
+}
+.herotitle{
+    display: flex;
+    max-width: 350px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    flex-direction: column;
+
+}
+.herotext{
+    display: flex;
+    flex-wrap: wrap;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.top{
+    background-color: #1f2937;
+}
+
+
+.heroimg img{
+    display: flex;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.middleheader{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    flex-wrap: wrap;
+    gap: 0px;
+    
+
+}
+
+.cardimgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px;
+    
+}
+.cardimg img{
+    height: 201px;
+    gap: 0px;
+}
+
+.cardtxtcont{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    gap: 0px;
+}
+
+
+
+.middle2{
+    background-color: #e5e7eb;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contquote{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 100px;
+    justify-content: center;
+    width: 100px;
+   
+}
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: light;
+    flex-basis: calc(50% - 20px);
+    flex-direction: column;
+  
+}
+.quotename{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 18px;
+    font-weight: 800;
+    align-items: flex-end;
+    
+}
+.signupbutton{
+    display: flex;
+    margin-right: 50px;
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    
+}
+.calltoaction{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+    color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 2px;
+    
+}
+.calltoactiontext{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15px; */
+    flex-wrap: wrap;
+    min-width: 0;
+    word-wrap: break-word; /* Force text to break if it overflows */
+   flex: 1 1 0;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: flex-start;
+}
+.calltoactionheader{
+    font-weight: 600;
+    font-size: 20px;
+}
+.end1{
+    margin-left: 250px;
+    margin-right: 250px;
+    color: white;
+    padding: 80px;
+}
+
+
+
+
+.footer{
+    background-color:#1f2937 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: #e5e7eb;
+    
+}
